@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+header {
+    background-color: hsl(0, 0%, 100%);
+    width: 67vh;
+    position: absolute;
+    left: 490px;
+    top: 30px;
+    box-shadow: 8px 8px 0px 0px black;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 24px;
+}
+
+img.blog {
+    border-radius: 20px;
+    width: 100%;
+}
+
+h5 {
+    background: hsl(47, 88%, 63%);
+    color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 12px 0 0 0;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+
+}
+
+h1 {
+    cursor: pointer;
+}
+
+h2 {
+    display: inline-flex;
+    position: absolute;
+    top: 488px;
+    left: 94px;
+}
+
+img.man {
+    width: 58px;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 375px) {
+    header {
+        width: 354px;
+        position: static;
+    }
+}
